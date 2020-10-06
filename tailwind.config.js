@@ -28,6 +28,9 @@ module.exports = {
           'bateeq-topheader':'#f5f5f5'
       }
     },
+    boxShadow: {
+      bxShadow:'0px 2px 2px rgba(0, 0, 0, 0.1)'
+    },
   },
   variants: {},
   plugins: [],

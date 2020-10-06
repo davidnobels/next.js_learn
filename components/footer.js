@@ -2,7 +2,7 @@
 
 export default function Footer(){
     return(
-        <footer class="bg-black block sm:hidden">
+        <footer class="bg-black block">
         <div class="container mx-auto px-6 py-20">
           <div class="flex flex-wrap pl-32">
             <div class="w-full md:w-1/4 text-center md:text-left">

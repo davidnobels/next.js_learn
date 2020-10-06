@@ -29,11 +29,7 @@ export default function Layout({ children}) {
       </Head>
       <Header />
     <div className="container mx-auto">
-     
-      <div className="flex items-center flex-col">
         <main>{children}</main>
-      </div>
-      
     </div>
     <Footer />
     </div>

@@ -1,0 +1,133 @@
+.inputs {
+    position: relative;
+    margin: 0 0 15px;
+    text-align: center;
+    white-space: nowrap;
+    /*fix for 'required' elements*/
+    font-size: 0;
+}
+
+    .inputs:after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .inputs label {
+        display: block;
+        width: 100%;
+        margin: 0 0 10px;
+        text-align: center;
+        font-size: 14px;
+        /*reset zeroing*/
+        color: #444;
+    }
+
+    .inputs input[type="text"],
+    .inputs input[type="email"],
+    .inputs input[type="tel"],
+    .inputs input[type="password"],
+    .inputs select,
+    .inputs textarea {
+        width: 400px;
+        max-width: 100%;
+        background-color: #fff;
+    }
+
+    .inputs.custom-attributes {
+        white-space: normal;
+    }
+
+    .inputs .option-list {
+        display: inline-block;
+        max-width: 95%;
+        vertical-align: middle;
+    }
+
+        .inputs .option-list li {
+            display: inline-block;
+            margin: 5px;
+            border: 1px solid #ddd;
+            background-color: #fff;
+            padding: 8px 10px;
+        }
+
+        .inputs .option-list label {
+            display: inline-block;
+            width: auto !important;
+            margin: 0 0 0 5px;
+        }
+
+    .inputs.reversed {
+        margin: 0 0 20px;
+        text-align: center;
+    }
+
+    .inputs input[type="file"] {
+        display: none;
+      }
+
+      .buttonUp {
+        min-width: 140px;
+        border: none;
+        background-color: #000;
+        padding: 10px 30px;
+        text-align: center;
+        font-size: 15px;
+        color: #fff;
+        text-transform: uppercase;
+        /* width: 270px; */
+        cursor: pointer;
+    }
+
+    .buttonChange{
+        /* min-width: 140px; */
+        border: none;
+        background-color: #000;
+        /* padding: 10px 30px; */
+        text-align: center;
+        font-size: 15px;
+        color: #fff;
+        text-transform: uppercase;
+        /* width: 270px; */
+        cursor: pointer;
+        float: right;
+    }
+
+    .buttonSave{
+        min-width: 140px;
+        border: none;
+        background-color: #000;
+        /* padding: 10px 30px; */
+        text-align: center;
+        font-size: 15px;
+        color: #fff;
+        text-transform: uppercase;
+        /* width: 270px; */
+        cursor: pointer;
+        /* align-items: center; */
+    }
+    .buttons{
+        padding-top: 25px;
+    }
+
+    .center{
+        text-align: center;
+    }
+
+    .width{
+        width: 50%;
+        border-radius: 2px;
+    }
+
+    .width2{
+        width: 70%;
+        border-radius: 2px;
+        float: left;
+        display: inline;
+    }
+
+.accountInline{
+    display: inline-block;
+    width: 100%;
+}

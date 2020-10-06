@@ -6,6 +6,7 @@ import utilStyles from '../styles/utils.module.css'
 export default function Home() {
   return (
     <Layout home>
+      <div className="flex items-center flex-col">
       <Head>
         <title>{siteTitle}</title>
       </Head>
@@ -93,6 +94,7 @@ export default function Home() {
           <a href="/">
             <img src="/images/homepage/Banner6.png" />
           </a>
+        </div>
         </div>
     </Layout>
   )

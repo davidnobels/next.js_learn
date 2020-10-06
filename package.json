@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "antd": "^4.6.6",
     "autoprefixer": "^10.0.1",
     "classnames": "^2.2.6",
     "gray-matter": "^4.0.2",
